@@ -11,4 +11,7 @@ func main() {
 	fmt.Println("-------------------------------------")
 	// To identify the scenarios of data overflow
 	Overflow()
+	
+	// Demonstrate the Size of the memory in KB,MB,GB,TB using enum
+	MemorySize()
 }
