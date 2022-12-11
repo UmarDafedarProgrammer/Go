@@ -37,4 +37,7 @@ func Overflow() {
 
 	var Vbool bool = true
 	fmt.Println(Vbool)
+
+	fmt.Printf("Type:%T  Data:%d Binary: %b\n", Vuint8, Vuint8, Vuint8)
+	fmt.Printf("Type:%T  Data:%d Binary: %b\n", -128, -128, -128)
 }
