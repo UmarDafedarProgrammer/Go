@@ -6,7 +6,7 @@ import "fmt"
 By default for all the variables, which are not initialized. Go assigns a default value called zero value
 For integers, zero value is 0
 For strings, zero value is ""
-For boo, it is false
+For boolean, it is false
 */
 
 func ZeroValue() {
