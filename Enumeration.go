@@ -6,6 +6,11 @@ import "fmt"
 	Enum is used to define a data type that has set of named related values called elements, enumerals, enumerators
 	It will have set of values, which are considered valid.
 	in Go, there is no concept called enums.instead we use const to define enums
+
+Go does not have enumerate types
+Instead, you can use the special name iota in a single
+const declaration to get a series of increasing values.
+
 */
 
 func Enum() {
