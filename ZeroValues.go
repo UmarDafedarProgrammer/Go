@@ -74,4 +74,9 @@ func ZeroValue() {
 	v_rune		:%d	%T
 	v_uintptr		:%d	%T
 	`, v_rune, v_rune, v_uintptr, v_uintptr)
+	
+	var ptr *int
+	fmt.Printf(`
+	ptr		:%d	%T
+	`, ptr, ptr)
 }
