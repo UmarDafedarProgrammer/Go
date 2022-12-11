@@ -118,4 +118,18 @@ func Enum() {
 	Friday		:%d
 	Saturday	:%d`, Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday)
 
+	const (
+		January  int = 1 + iota //iota = 0
+		February                //iota = 1
+		March                   //iota = 2
+		April    int = 10       //iota = 3
+		May          = 1 - iota //iota = 4
+		June                    //iota = 5
+	)
+	fmt.Println("January  :", January)  // 1
+	fmt.Println("February :", February) // 2
+	fmt.Println("March    :", March)    // 3
+	fmt.Println("April    :", April)    // 10
+	fmt.Println("May      :", May)      // -3
+	fmt.Println("June     :", June)     // -4
 }
